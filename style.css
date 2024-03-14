@@ -57,4 +57,43 @@ h1{
     padding: 20px 0;
     text-align: center;
   }
-  
+
+h2{
+    color:#000000;
+    padding: 10px 25px;
+    background:transparent;
+    border: 5px solid #89c66d;
+    text-align: center;
+    outline:none;
+    cursor: auto;
+}
+
+.home-grid-container {
+    display: grid;
+    justify-content: center; 
+    /* aligns the grid along the horizontal axis */
+    align-items:center;
+    /* aligns the vertical */
+}
+
+@media screen and (min-width:600px) {
+   
+    h1{
+        font-size: 50px;
+      }
+
+    p{
+        font-size: 30px;
+        padding:5%;
+      }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        margin:0;
+    }
+    nav ul li {
+        font-size:30px;
+    }
+
+    }
